@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fullname(fname,lname) {
+            var a= fname+ " "+lname;
+            return a;
+        }
+          var Name=fullname("Susmita","Sinha");
+          document.write(Name);
+          document.write("<br>");
+        function sum(math,science,lang) {
+            var s= math+ science+lang;
+            return s;
+        }
+        function percentage(total) {
+            var per=total/300*100;
+            document.write(per);
+        }
+        var total=sum(90,90,90);
+        //document.write(total);[akhane sudhu total er value return korche]
+        percentage(total);
+    </script>
+</head>
+<body>
+    <!--jodi amak akta function er modhye kichu likhte 
+    bole then se khetre akta function name like "percentage"
+    er parameter loke"total" akahne onno jekono name o deoa 
+    jay tar por akta alada variable like "var per" er modhye calculation
+    koreche tai jonno akhane print koralam per ta then
+    bracket er baire total er j argument pass koranor ota kore
+    "percentage" function die "total" tak call korlam-->
+</body>
+</html>
