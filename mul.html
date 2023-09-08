@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var arr = [
+            ["harry", 18, "Male", "BCA"],
+            ["Rosy", 19, "Female", "BBA"],
+            ["riya", 16, "Female", "BCA"],
+            ["putu", 13, "Male", "BBA"],
+        ];
+         //document.write(arr.length);for array length
+        //for table format
+         document.write("<table border='1px' cellspacing='0'>");
+        for (var a = 0; a < arr.length; a++) {
+                document.write("<tr>");                        //as it is puro dakhanor jonno
+            for (var b = 0; b < arr[a].length ; b++) { // , soranor jonno b use kora hoy
+                document.write("<td>"+ arr[a][b] +" ");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>"); 
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
